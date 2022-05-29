@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    
+    width: 25%;
+}
+
+.game-img {
+    max-height: 250px;
+    object-fit: cover;
+
+}
+
+.card-lower {
+    background-color: aliceblue;
+    text-decoration: none;
+    width: 25%;
+}
+
+
+
+
